@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase Finale - Concours des Jeunes Chercheurs Économistes | REC UCB</title>
+    <meta name="description" content="Formulaire d'inscription à la Phase Finale du Concours des Jeunes Chercheurs Économistes - Rethinking Economics UCB & Université Catholique de Bukavu.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logos">
+                <img src="rec.png" alt="Logo Rethinking Economics UCB" class="logo-img" onerror="this.style.display='none'">
+                <span class="logo-text">Rethinking Economics <strong>UCB</strong></span>
+                <span class="separator">×</span>
+                <img src="ucb.png" alt="Logo Université Catholique de Bukavu" class="logo-img" onerror="this.style.display='none'">
+                <span class="logo-text sub">Université Catholique de <strong>Bukavu</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bandeau Phase Finale -->
+    <div class="phase-banner">
+        <div class="container">
+            <span class="badge">PHASE FINALE</span>
+            <span class="banner-text">Concours des Jeunes Chercheurs Économistes de l'UCB</span>
+        </div>
+    </div>
+
+    <main class="container main-content">
+        <div class="form-wrapper">
+
+            <div class="form-header">
+                <h1>Inscription à la Phase Finale</h1>
+                <p>Complétez le formulaire ci-dessous pour vous inscrire à la phase finale du concours de recherche. Faculté des Sciences Économiques et de Gestion.</p>
+            </div>
+
+            <!-- FormSubmit.co avec support fichier (enctype multipart) -->
+            <form id="registrationForm" action="https://formsubmit.co/reucbukavu@rethinkeconomics.org" method="POST" enctype="multipart/form-data">
+                
+                <!-- Configuration FormSubmit (champs cachés) -->
+                <input type="hidden" name="_cc" value="mwirango.muvundja@ucbukavu.ac.cd, hekima.mugongo@ucbukavu.ac.cd">
+                <input type="hidden" name="_subject" value="Phase Finale - Nouvelle inscription au Concours Jeunes Chercheurs REC UCB">
+                <input type="hidden" name="_next" value="https://chat.whatsapp.com/DbuaC7tW6ccIRCVnC8GIyU?s=cl&p=a&mlu=4&ilr=4">
+                <input type="hidden" name="_captcha" value="true">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" style="display:none">
+
+                <!-- SECTION 1 : Informations personnelles -->
+                <div class="section-title">
+                    <span class="section-number">1</span>
+                    <h2>Informations personnelles</h2>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nom">Nom <span class="required">*</span></label>
+                        <input type="text" id="nom" name="Nom" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="postnom">Post-nom <span class="required">*</span></label>
+                        <input type="text" id="postnom" name="Post-nom" placeholder="Votre post-nom" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="prenom">Prénom <span class="required">*</span></label>
+                    <input type="text" id="prenom" name="Prénom" placeholder="Votre prénom" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Adresse email <span class="required">*</span></label>
+                        <input type="email" id="email" name="Email" placeholder="exemple@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Numéro de téléphone <span class="required">*</span></label>
+                        <input type="tel" id="telephone" name="Téléphone" placeholder="+243 ..." required>
+                    </div>
+                </div>
+
+                <!-- SECTION 2 : Informations académiques -->
+                <div class="section-title">
+                    <span class="section-number">2</span>
+                    <h2>Informations académiques</h2>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="promotion">Promotion <span class="required">*</span></label>
+                        <select id="promotion" name="Promotion" required>
+                            <option value="" disabled selected>Sélectionnez votre promotion...</option>
+                            <option value="BAC1 Économie">BAC 1 - Économie</option>
+                            <option value="BAC2 Économie">BAC 2 - Économie</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="theme">Thème de recherche <span class="required">*</span></label>
+                        <select id="theme" name="Thème de recherche" required>
+                            <option value="" disabled selected>Choisissez un thème...</option>
+                            <option value="Les Réseaux sociaux">Les Réseaux sociaux</option>
+                            <option value="Changement climatique">Changement climatique</option>
+                            <option value="Économie numérique">Économie numérique</option>
+                            <option value="Entrepreneuriat des jeunes">Entrepreneuriat des jeunes</option>
+                            <option value="Épargne étudiante">Épargne étudiante</option>
+                            <option value="Chômage des jeunes">Chômage des jeunes</option>
+                            <option value="Budget étudiant">Budget étudiant</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- SECTION 3 : Carte d'étudiant -->
+                <div class="section-title">
+                    <span class="section-number">3</span>
+                    <h2>Carte d'étudiant</h2>
+                </div>
+
+                <div class="form-group">
+                    <label for="carte">Téléchargez votre carte d'étudiant <span class="required">*</span></label>
+                    <div class="file-upload-wrapper">
+                        <input type="file" id="carte" name="Carte d'étudiant" accept="image/*,.pdf" required>
+                        <div class="file-upload-design">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="upload-icon"><rect x="3" y="4" width="18" height="16" rx="2"></rect><circle cx="9" cy="10" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg>
+                            <span class="file-name">Cliquez pour choisir un fichier (Photo ou PDF)</span>
+                        </div>
+                    </div>
+                    <small class="help-text">Formats acceptés : Image (JPG, PNG) ou PDF. Taille maximale : 5 Mo.</small>
+                </div>
+
+                <!-- Conditions -->
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="conditions" required>
+                        <span>J'atteste être étudiant(e) inscrit(e) à la Faculté des Sciences Économiques et de Gestion de l'UCB et je m'engage à participer activement à la phase finale du Concours des Jeunes Chercheurs Économistes. <span class="required">*</span></span>
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px"><path d="M22 2 11 13"></path><path d="m22 2-7 20-4-9-9-4 20-7z"></path></svg>
+                        <span class="btn-text">Soumettre mon inscription</span>
+                    </button>
+                </div>
+
+                <p class="form-footer-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#25D366" stroke="none" style="vertical-align: middle; margin-right: 6px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.025.506 3.934 1.395 5.608L0 24l6.563-1.37A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.94 9.94 0 0 1-5.064-1.382l-.363-.215-3.766.987 1.005-3.672-.237-.376A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+                    Après inscription, vous serez redirigé vers le groupe WhatsApp officiel de la phase finale.
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Rethinking Economics UCB & Université Catholique de Bukavu. By Victoire HEKIMA (Web developper).</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
